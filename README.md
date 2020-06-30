@@ -1,2 +1,3 @@
 # wireless_bell
-Chuong không dây
+
+Chuông sử dụng mạng không dây chưa được mã hóa
