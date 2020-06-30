@@ -1,0 +1,4 @@
+".\Delay.obj",
+".\Lcd.obj",
+"main.obj" 
+TO "DoAn1" 
