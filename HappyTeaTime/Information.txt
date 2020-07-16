@@ -1,0 +1,18 @@
+- Tải thêm cái Teraterm với cái VSBE trong này
+
+- Tải xong thì bật VSBE (ko cần register, nó hiện báo thì bấm vào NO)
+
+- Bấm vào cái hình thứ 5 ( cái hình mà có cổng COM vs dấu * ) chỉnh Device Type là Pair
+=> Next => Finish
+
+- Bật Tera Term => Kích vào ô Serial rồi chỉnh port (thường COM 1)
+=> Vào Setup bên trên => Terminal => Bấm vào Local echo
+
+- Mở cái app lên, chỉnh cổng COM khác với cổng đặt ở Tera Term 
+=> COM control => OPEN
+
+- ID: happyteatime
+- Password: 12345679
+=> Bấm Enter hoặc nhấn Enter trên bàn phím
+
+- Xong vào lại Tera Term để gửi số => 1,2,3,4,....,9,A,B,C ứng với các bàn từ 1-12 

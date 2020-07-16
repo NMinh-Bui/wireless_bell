@@ -1,0 +1,10 @@
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\bin\Debug\HappyTeaTime.exe.config
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\bin\Debug\HappyTeaTime.exe
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\bin\Debug\HappyTeaTime.pdb
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\obj\Debug\HappyTeaTime.Form1.resources
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\obj\Debug\HappyTeaTime.Properties.Resources.resources
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\obj\Debug\HappyTeaTime.csproj.GenerateResource.cache
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\obj\Debug\HappyTeaTime.csproj.CoreCompileInputs.cache
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\obj\Debug\HappyTeaTime.exe
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\obj\Debug\HappyTeaTime.pdb
+C:\Users\trphuonghoa\Desktop\NMinh\DA1\HappyTeaTime\HappyTeaTime\obj\Debug\HappyTeaTime.Form2.resources
