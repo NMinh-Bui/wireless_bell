@@ -151,7 +151,7 @@ namespace HappyTeaTime
                 }
                 CboxBan9.Checked = true;
             }
-            else if (dataIN == "A")
+            else if (dataIN == ":")
             {
                 if (CboxBan10.CheckState != CheckState.Checked)
                 {
@@ -161,7 +161,7 @@ namespace HappyTeaTime
                 }
                 CboxBan10.Checked = true;
             }
-            else if (dataIN == "B")
+            else if (dataIN == ";")
             {
                 if (CboxBan11.CheckState != CheckState.Checked)
                 {
@@ -171,7 +171,7 @@ namespace HappyTeaTime
                 }
                 CboxBan11.Checked = true;
             }
-            else if (dataIN == "C")
+            else if (dataIN == "<")
             {
                 if (CboxBan12.CheckState != CheckState.Checked)
                 {
@@ -201,6 +201,32 @@ namespace HappyTeaTime
 
         private void btnNext_Click(object sender, EventArgs e)
         {
+            if (A1 == 1) { CboxBan1.Checked = false; }
+            if (A2 == 1) { CboxBan2.Checked = false; }
+            if (A3 == 1) { CboxBan3.Checked = false; }
+            if (A4 == 1) { CboxBan4.Checked = false; }
+            if (A5 == 1) { CboxBan5.Checked = false; }
+            if (A6 == 1) { CboxBan6.Checked = false; }
+            if (A7 == 1) { CboxBan7.Checked = false; }
+            if (A8 == 1) { CboxBan8.Checked = false; }
+            if (A9 == 1) { CboxBan9.Checked = false; }
+            if (A10 == 1) { CboxBan10.Checked = false; }
+            if (A11 == 1) { CboxBan11.Checked = false; }
+            if (A12 == 1) { CboxBan12.Checked = false; }
+
+            if (A1 == 0) { A1 = A1 + 1; }
+            if (A2 == 0) { A2 = A2 + 1; }
+            if (A3 == 0) { A3 = A3 + 1; }
+            if (A4 == 0) { A4 = A4 + 1; }
+            if (A5 == 0) { A5 = A5 + 1; }
+            if (A6 == 0) { A6 = A6 + 1; }
+            if (A7 == 0) { A7 = A7 + 1; }
+            if (A8 == 0) { A8 = A8 + 1; }
+            if (A9 == 0) { A9 = A9 + 1; }
+            if (A10 == 0) { A10 = A10 + 1; }
+            if (A11 == 0) { A11 = A11 + 1; }
+            if (A12 == 0) { A12 = A12 + 1; }
+
             A1 = A1 - 1;
             A2 = A2 - 1;
             A3 = A3 - 1;
@@ -225,68 +251,9 @@ namespace HappyTeaTime
             lblBan10.Text = Convert.ToString(A10);
             lblBan11.Text = Convert.ToString(A11);
             lblBan12.Text = Convert.ToString(A12);
-            i = i - 1;
 
-            if (A1 == 0)
-            {
-                A1 = A1 + 1;
-                CboxBan1.Checked = false;
-            }
-            if (A2 == 0)
-            {
-                CboxBan2.Checked = false;
-                A2 = A2 + 1;
-            }
-            if (A3 == 0)
-            {
-                CboxBan3.Checked = false;
-                A3 = A3 + 1;
-            }
-            if (A4 == 0)
-            {
-                CboxBan4.Checked = false;
-                A4 = A4 + 1;
-            }
-            if (A5 == 0)
-            {
-                CboxBan5.Checked = false;
-                A5 = A5 + 1;
-            }
-            if (A6 == 0)
-            {
-                CboxBan6.Checked = false;
-                A6 = A6 + 1;
-            }
-            if (A7 == 0)
-            {
-                CboxBan7.Checked = false;
-                A7 = A7 + 1;
-            }
-            if (A8 == 0)
-            {
-                CboxBan8.Checked = false;
-                A8 = A8 + 1;
-            }
-            if (A9 == 0)
-            {
-                CboxBan9.Checked = false;
-                A9 = A9 + 1;
-            }
-            if (A10 == 0)
-            {
-                CboxBan10.Checked = false;
-                A10 = A10 + 1;
-            }
-            if (A11 == 0)
-            {
-                CboxBan11.Checked = false;
-                A11 = A11 + 1;
-            }
-            if (A12 == 0)
-            {
-                CboxBan12.Checked = false;
-                A12 = A12 + 1;
-            }
+
+            if (i != 0) { i = i - 1; }
 
             if (i == 0) { lblServe.Text = "00"; }
             if (lblBan1.Text == "1") { lblServe.Text = "01"; }

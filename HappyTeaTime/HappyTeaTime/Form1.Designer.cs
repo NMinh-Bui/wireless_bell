@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -187,7 +188,7 @@
             this.CboxBAUDRATE.Name = "CboxBAUDRATE";
             this.CboxBAUDRATE.Size = new System.Drawing.Size(121, 33);
             this.CboxBAUDRATE.TabIndex = 7;
-            this.CboxBAUDRATE.Text = "9600";
+            this.CboxBAUDRATE.Text = "4800";
             // 
             // CboxDATABITS
             // 
@@ -343,6 +344,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Happy Tree Friends";

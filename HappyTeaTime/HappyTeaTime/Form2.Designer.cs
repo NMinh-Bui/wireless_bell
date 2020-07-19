@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.CboxBan1 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.CboxBan12 = new System.Windows.Forms.CheckBox();
@@ -88,7 +89,7 @@
             this.groupBox1.Controls.Add(this.CboxBan3);
             this.groupBox1.Controls.Add(this.CboxBan2);
             this.groupBox1.Controls.Add(this.CboxBan1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 49);
+            this.groupBox1.Location = new System.Drawing.Point(12, 29);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(231, 581);
             this.groupBox1.TabIndex = 1;
@@ -230,7 +231,7 @@
             this.groupBox2.Controls.Add(this.lblBan3);
             this.groupBox2.Controls.Add(this.lblBan2);
             this.groupBox2.Controls.Add(this.lblBan1);
-            this.groupBox2.Location = new System.Drawing.Point(266, 49);
+            this.groupBox2.Location = new System.Drawing.Point(266, 29);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(120, 581);
             this.groupBox2.TabIndex = 2;
@@ -364,7 +365,7 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnNext.Location = new System.Drawing.Point(417, 505);
+            this.btnNext.Location = new System.Drawing.Point(422, 504);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(183, 92);
             this.btnNext.TabIndex = 3;
@@ -397,12 +398,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::HappyTeaTime.Properties.Resources.birth_flower_1558461020;
             this.ClientSize = new System.Drawing.Size(627, 634);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblServe);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "Happy Tea Time";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
