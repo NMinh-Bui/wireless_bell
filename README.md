@@ -1,6 +1,6 @@
 # wireless_bell
 
-Chuông gọi phục vụ trong quán ăn, nhà hàng 
+Devices used in restaurant for calling waiters (waitresss)
 
-Sử dụng mạng không dây chưa được mã hóa
+Using unmodulated signal in communication between devices
 
